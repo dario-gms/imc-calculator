@@ -22,7 +22,9 @@ A calculadora de IMC tem como objetivo ajudar os usuários a monitorarem seu IMC
   │   ├── imc_button.dart
   │   ├── imc_form.dart
   │   ├── imc_input_fields.dart
-  │   └── imc_result.dart
+  │   ├── imc_result.dart
+  │   └── text_form_field_builder.dart
+
 ```
 
 ### Arquivos Principais
@@ -34,6 +36,7 @@ A calculadora de IMC tem como objetivo ajudar os usuários a monitorarem seu IMC
 - **utils/imc_utils.dart**: Utilitários e constantes para formatação e exibição.
 - **widgets/imc_form.dart**: Formulário onde o usuário insere seus dados.
 - **widgets/imc_result.dart**: Exibe o resultado e a classificação do IMC.
+- **widgets/text_form_field_builder.dart**: Função que constrói campos de formulário personalizados com validação.
 
 ## Funcionalidades
 
